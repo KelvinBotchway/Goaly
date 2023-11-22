@@ -1,0 +1,55 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for the sidebar */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for the main content area */
+.main-content {
+  margin-left: 250px; /* Set to sidebar width */
+  padding: 20px;
+}
+
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}

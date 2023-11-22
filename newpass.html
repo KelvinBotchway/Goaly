@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="input">
+        <div class="pass-text">
+          <h1>Set New Password!</h1>
+        </div>
+        <div class="btn-input">
+          <form onsubmit="event.preventDefault(); Verify(); ">
+            <input type="text" id="username" placeholder="Enter old password" />
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter new password"
+            />
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Repeat password"
+            />
+            <button class="btnn">Change Password</button>
+          </form>
+
+          <p class="forgot-text">Forgot Password? <a href="#">Reset</a></p>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="goaly.png" alt="Goaly picture" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  background-color: #1C1C39;
+}
+
+.logo img {
+ width: 500px;
+ height: 500px;
+ margin-left: 70px;
+}
+
+.btn-input {
+  display: flex;
+  flex-direction: column;
+  border: none;
+
+}
+
+.btn-input input {
+  margin-bottom: 20px;
+  padding: 10px 70px 10px 5px;
+  border-radius: 5px;
+}
+
+.text{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: white;
+}
+
+.pass-text{
+  margin-bottom: 30px;
+  margin-top: 70px;
+  color: white;
+}
+
+.btnn{
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 40px;
+    background-color: rgb(72, 60, 179) ;
+    color: white;
+    font-weight: bolder;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.forgot-text ,a{
+    text-align: center;
+    color: white;
+}
+
+.input{
+    box-shadow: 15px 7px 14px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 7px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 7px 14px 0px rgba(0,0,0,0.75);
+padding-right: 70px;
+}
