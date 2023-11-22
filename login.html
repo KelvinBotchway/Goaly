@@ -1,46 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="input">
-        <div class="text">
-          <h1>Let's get started!</h1>
-        </div>
-        <div class="btn-input">
-          <form onsubmit="event.preventDefault(); Verify(); ">
-            <input
-              type="text"
-              id="username"
-              placeholder="Enter your username"
-            />
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter your password"
-            />
-            <button class="btnn">Login</button>
-          </form>
-      
-
-          <p class="forgot-text">Forgot Password? <a href="#">Reset</a></p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="input">
+      <div class="text">
+        <h1>Let's get started!</h1>
       </div>
-      <div class="logo">
-        <img src="goaly.png" alt="Goaly picture" />
+      <div class="btn-input">
+        <form onsubmit="event.preventDefault(); Verify(); ">
+          <input type="text" id="username" placeholder="Enter your username" />
+          <div class="passeye">
+            <input type="password" id="password" placeholder="Enter your password" />
+            <img id="eyeicon" class="image" src="eye-close.png" alt="not loaded" onclick="togglePassword('password', 'eyeicon')" />
+          </div>
+          <button class="btnn">Login</button>
+        </form>
+        <p class="forgot-text">Forgot Password? <a href="#">Reset</a></p>
       </div>
     </div>
-  </body>
+    <div class="logo">
+      <img src="goaly.png" alt="Goaly picture" />
+    </div>
+  </div>
+</body>
 </html>
