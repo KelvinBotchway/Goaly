@@ -21,7 +21,7 @@ function Verify() {
 
   if (user === userRef && pass === passRef) {
     alert("Connection Succeeded");
-    window.location.href = "newpass.html";
+    window.location.href = "admindash.html";
   } else {
     alert("It seems you made a mistake...");
   }
