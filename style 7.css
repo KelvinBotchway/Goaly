@@ -1,0 +1,133 @@
+/* Reset default margin and padding */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Basic styles for body and header */
+
+body {
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  background-color: #1c1c39;
+
+  color: #fff;
+
+  margin: 0;
+}
+
+header {
+  background-color: #1c1c39;
+
+  color: #fff;
+
+  text-align: left;
+
+  padding: 1rem 0;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.logo-image {
+  width: 200px;
+
+  height: auto;
+}
+
+main {
+  max-width: 1200px;
+
+  margin: 20px auto;
+
+  padding: 0 20px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+
+  align-items: center;
+}
+
+.photo {
+  margin-right: 20px;
+}
+
+.photo img {
+  width: 200px;
+
+  height: auto;
+}
+
+.text {
+  flex: 1;
+}
+
+/* Navigation bar styles */
+
+.navbar {
+  background-color: #1c1c39;
+
+  color: #fff;
+
+  text-align: left-side;
+}
+
+.navbar ul {
+  list-style-type: none;
+
+  margin: 50px;
+
+  padding: 10px 0;
+}
+
+.navbar ul li {
+  display: inline;
+
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+
+  padding: 10px 0;
+
+  background-color: #333;
+
+  color: #fff;
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100%;
+}
