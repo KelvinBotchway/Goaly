@@ -1,133 +1,71 @@
-/* Reset default margin and padding */
 
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
-/* Basic styles for body and header */
-
 body {
   font-family: Arial, sans-serif;
-
   line-height: 1.6;
-
   background-color: #1c1c39;
-
   color: #fff;
-
-  margin: 0;
-}
-
-header {
-  background-color: #1c1c39;
-
-  color: #fff;
-
-  text-align: left;
-
-  padding: 1rem 0;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-}
-
-.logo {
-  margin: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logo-image {
   width: 200px;
-
   height: auto;
 }
 
-main {
-  max-width: 1200px;
-
-  margin: 20px auto;
-
-  padding: 0 20px;
-}
-
-.about-section {
-  margin-bottom: 30px;
-}
-
-.content {
+.navbar{
   display: flex;
-
-  align-items: center;
-}
-
-.photo {
-  margin-right: 20px;
-}
-
-.photo img {
-  width: 200px;
-
-  height: auto;
-}
-
-.text {
-  flex: 1;
-}
-
-/* Navigation bar styles */
-
-.navbar {
-  background-color: #1c1c39;
-
-  color: #fff;
-
-  text-align: left-side;
-}
-
-.navbar ul {
-  list-style-type: none;
-
-  margin: 50px;
-
-  padding: 10px 0;
-}
-
-.navbar ul li {
-  display: inline;
-
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  color: #fff;
-
+  flex-direction: row;
+  justify-content: space-between;
   text-decoration: none;
 }
 
-.navbar ul li a:hover {
-  text-decoration: underline;
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: 60px;
 }
 
-/* Footer styles */
+.navbar ul li{
+  margin: 0% 50%;
+  text-decoration: none !important;
+  list-style: none;
+  font-weight: bolder;
+  font-size: larger;
+}
 
-footer {
-  text-align: center;
+.navbar ul li:hover{
+  background-color: #.navbar ul li;
+}
 
-  padding: 10px 0;
-
-  background-color: #333;
-
+.navbar ul li a{
+  text-decoration: none;
   color: #fff;
+}
 
-  position: absolute;
+.content-contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
 
-  bottom: 0;
-
+.photo1 img{
   width: 100%;
+}
+
+.photo1{
+  margin: 0px 10px;
+}
+
+.heading{
+  margin: 0px 20px;
 }
