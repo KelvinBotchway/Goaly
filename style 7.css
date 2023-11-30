@@ -13,6 +13,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.bho{
+  background: url("homebg.png");
+}
+
 .logo-image {
   width: 200px;
   height: auto;
@@ -41,8 +45,9 @@ body {
   font-size: larger;
 }
 
-.navbar ul li:hover{
-  background-color: #.navbar ul li;
+.active{
+  background-color: #4E4FEB;
+  font-size: larger;
 }
 
 .navbar ul li a{

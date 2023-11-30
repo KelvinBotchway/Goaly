@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1c1c39;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .bho{
+    background: url("homebg.png");
+    background-size: cover;
+  }
+  
+  .logo-image {
+    width: 200px;
+    height: 170px;
+  }
+
+  .ready-text{
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  .para{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.3em;
+    
+  }
+
+  .btn-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; /* Adjust the margin-top as needed */
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    /* Your existing styles */
+    width: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  
+  .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 60px;
+  }
+  
+  .navbar ul li{
+    margin: 0% 30%;
+    text-decoration: none !important;
+    list-style: none;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+  .active{
+    background-color: #4E4FEB;
+    font-size: larger;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .content-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .photo1 img{
+    width: 100%;
+  }
+  
+  .photo1{
+    margin: 0px 10px;
+  }
+  
+  .heading{
+    margin: 0px 20px;
+  }
+
+  .text-part{
+    width: 50%;
+    margin-left: 50px;
+  }

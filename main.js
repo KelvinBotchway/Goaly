@@ -26,3 +26,19 @@ function Verify() {
     alert("It seems you made a mistake...");
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const navLinkEls = document.querySelectorAll('.navs');
+
+  navLinkEls.forEach(navLinkEl => {
+    navLinkEl.addEventListener('click', () => {
+      // Remove 'active' class from all elements
+      navLinkEls.forEach(el => {
+        el.classList.remove('active');
+      });
+      
+      // Add 'active' class to the clicked element
+      navLinkEl.classList.add('active');
+    });
+  });
+});
