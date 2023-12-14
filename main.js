@@ -1,3 +1,18 @@
+const { Client } = require('pg');
+
+const client = new Client({
+  user: 'goaly',
+  host: 'localhost',
+  database: 'goaly',
+  password: 'goaly',
+  port: 5432,
+});
+
+client.connect();
+
+
+
+
 function togglePassword(passwordId, eyeIconId) {
   let passwordField = document.getElementById(passwordId);
   let eyeIcon = document.getElementById(eyeIconId);
